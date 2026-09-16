@@ -199,6 +199,7 @@ cout << "\n===== TO-DO LIST MANAGER =====\n";
         cout << "5. Search Tasks\n";
         cout << "6. Show High Priority Tasks\n";
         cout << "7. Exit\n";
+cout << "8. Save and Exit\n";
         cout << "Enter choice: ";
 
         cin >> choice;
