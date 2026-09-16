@@ -49,11 +49,16 @@ void addTask() {
     cin.ignore();
 cout<<"enter task keyword to search:";
     getline(cin, name);
+cout << "Enter priority (High/Medium/Low): ";
+cin >> priority;
 
-    cout << "Enter priority (High/Medium/Low): ";
-    cin >> priority;
+if (priority != "High" && priority != "Medium" && priority != "Low") {
+    cout << "Invalid priority.\n";
+    return;
+}
 
-    tasks.push_back({name, priority, false});
+tasks.push_back({name, priority, false});
+    
     saveTasks();
 
     cout << "Task added successfully.\n";
