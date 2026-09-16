@@ -189,7 +189,9 @@ int main() {
     int choice;
 
     while (true) {
-        cout << "\n===== PERSONAL TO-DO MANAGER =====\n";
+
+
+cout << "\n===== TO-DO LIST MANAGER =====\n";
         cout << "1. Add Task\n";
         cout << "2. View Tasks\n";
         cout << "3. Delete Task\n";
