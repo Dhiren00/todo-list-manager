@@ -47,7 +47,7 @@ void addTask() {
     string priority;
 
     cin.ignore();
-    cout << "Enter task: ";
+cout<<"enter task keyword to search:";
     getline(cin, name);
 
     cout << "Enter priority (High/Medium/Low): ";
